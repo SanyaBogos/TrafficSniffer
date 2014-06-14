@@ -1,0 +1,65 @@
+﻿Build started 14.06.2014 12:38:03.
+     1>Project "D:\Learn\CV\MyKnowledges\TrafficSniffer\TrafficSniffer\nonifslsp\NonIFSLSP.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Debug\NonIFSLSP.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Debug\NonIFSLSP.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D NONIFSLSP_EXPORTS /D _PSDK_BLD /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt asyncselect.cpp extension.cpp lspguid.cpp overlap.cpp ..\common\provider.cpp sockinfo.cpp spi.cpp
+         spi.cpp
+     1>d:\learn\cv\myknowledges\trafficsniffer\trafficsniffer\common\lspcommon.h(25): warning C4005: '__in_z' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\specstrings_strict.h(192) : see previous definition of '__in_z'
+         sockinfo.cpp
+     1>d:\learn\cv\myknowledges\trafficsniffer\trafficsniffer\common\lspcommon.h(25): warning C4005: '__in_z' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\specstrings_strict.h(192) : see previous definition of '__in_z'
+         provider.cpp
+     1>d:\learn\cv\myknowledges\trafficsniffer\trafficsniffer\common\lspcommon.h(25): warning C4005: '__in_z' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\specstrings_strict.h(192) : see previous definition of '__in_z'
+         overlap.cpp
+     1>d:\learn\cv\myknowledges\trafficsniffer\trafficsniffer\common\lspcommon.h(25): warning C4005: '__in_z' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\specstrings_strict.h(192) : see previous definition of '__in_z'
+         lspguid.cpp
+     1>d:\learn\cv\myknowledges\trafficsniffer\trafficsniffer\common\lspcommon.h(25): warning C4005: '__in_z' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\specstrings_strict.h(192) : see previous definition of '__in_z'
+         extension.cpp
+     1>d:\learn\cv\myknowledges\trafficsniffer\trafficsniffer\common\lspcommon.h(25): warning C4005: '__in_z' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\specstrings_strict.h(192) : see previous definition of '__in_z'
+         asyncselect.cpp
+     1>d:\learn\cv\myknowledges\trafficsniffer\trafficsniffer\common\lspcommon.h(25): warning C4005: '__in_z' : macro redefinition
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\specstrings_strict.h(192) : see previous definition of '__in_z'
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\NonIFSLSP.dll.embed.manifest.res" .\Debug\NonIFSLSP_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\NonIFSLSP.dll" /INCREMENTAL /NOLOGO sporder.lib ws2_32.lib rpcrt4.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\nonifslsp.def" /MANIFEST /ManifestFile:".\Debug\NonIFSLSP.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Learn\CV\MyKnowledges\TrafficSniffer\TrafficSniffer\nonifslsp\Debug\NonIFSLSP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\NonIFSLSP.lib" /MACHINE:X86 /DLL .\Debug\NonIFSLSP.dll.embed.manifest.res
+         .\Debug\asyncselect.obj
+         .\Debug\extension.obj
+         .\Debug\lspguid.obj
+         .\Debug\overlap.obj
+         .\Debug\provider.obj
+         .\Debug\sockinfo.obj
+         .\Debug\spi.obj
+            Creating library .\Debug\NonIFSLSP.lib and object .\Debug\NonIFSLSP.exp
+       Manifest:
+         Deleting file ".\Debug\NonIFSLSP.dll.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\NonIFSLSP.dll.embed.manifest" /manifest .\Debug\NonIFSLSP.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\NonIFSLSP.dll.embed.manifest.res" .\Debug\NonIFSLSP_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\NonIFSLSP.dll" /INCREMENTAL /NOLOGO sporder.lib ws2_32.lib rpcrt4.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\nonifslsp.def" /MANIFEST /ManifestFile:".\Debug\NonIFSLSP.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Learn\CV\MyKnowledges\TrafficSniffer\TrafficSniffer\nonifslsp\Debug\NonIFSLSP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\NonIFSLSP.lib" /MACHINE:X86 /DLL .\Debug\NonIFSLSP.dll.embed.manifest.res
+         .\Debug\asyncselect.obj
+         .\Debug\extension.obj
+         .\Debug\lspguid.obj
+         .\Debug\overlap.obj
+         .\Debug\provider.obj
+         .\Debug\sockinfo.obj
+         .\Debug\spi.obj
+            Creating library .\Debug\NonIFSLSP.lib and object .\Debug\NonIFSLSP.exp
+         NonIFSLSP.vcxproj -> D:\Learn\CV\MyKnowledges\TrafficSniffer\TrafficSniffer\nonifslsp\.\Debug\NonIFSLSP.dll
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\NonIFSLSP.unsuccessfulbuild".
+         Touching ".\Debug\NonIFSLSP.lastbuildstate".
+     1>Done Building Project "D:\Learn\CV\MyKnowledges\TrafficSniffer\TrafficSniffer\nonifslsp\NonIFSLSP.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.97
